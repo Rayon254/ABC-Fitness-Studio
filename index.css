@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    background-color: #f8f9fa;
+    color: #001F3F;
+}
+
+.navbar-brand {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.navbar-title {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    color: #000; 
+    margin: 0; 
+    
+}
+
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:#001F3F;
+    font-weight: bold;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-height: 500px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.section-title {
+    color: #001F3F;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    border: none;
+    width: 30%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.social-list .list-item {
+    margin: 0 15px;
+    font-size: 24px;
+}
+
+.social-list a {
+    text-decoration: none;
+    color: #001F3F;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+#subscribeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #001F3F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#subscribeButton:hover {
+    background-color: #001F3F;
+}
+.contact-us {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    color: #001F3F;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact-details li {
+    margin: 10px 0;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC FITNESS STUDIO</title>
+    <link rel="icon" href="Client2_LogoPalette2_001F3F.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+            <img src="Client2_LogoPalette2_001F3F.png" alt="ABC Fitness Studio">
+            <span class="navbar-title">ABC FITNESS STUDIO</span> <!-- Added title here -->
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a> <!-- Link to Home page -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a> <!-- Link to About Us page -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a> <!-- Link to Gallery page -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a> <!-- Link to Gallery page -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-magnifying-glass"></i></a> <!-- Search icon link -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a> <!-- Cart icon link -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-circle-user"></i></a> <!-- User profile icon link -->
+            </li>
+        </ul>
+    </nav>
+
+    <div class="carousel">
+        <img src="Client2_GroupYoga.png" alt="Group Pilates">
+
+    </div>
+
+    <h2 class="section-title">What We Do</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <img src="Client2_GroupYoga.png" alt="Group Yoga">
+                <h5 class="card-title">Group Yoga Session</h5>
+            </div>
+            <div class="card">
+                <img src="Client2_GroupPilates.png" alt="Group Pilates">
+                <h5 class="card-title">Group Pilates Session</h5>
+            </div>
+            <div class="card">
+                <img src="Client2_IndividualKickboxing.png" alt="Group Kickboxing">
+                <h5 class="card-title">Group Kickboxing Session</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card">
+                <img src="Client2_IndividualYoga.png" alt="Individual Yoga">
+                <h5 class="card-title">Individual Yoga Session</h5>
+            </div>
+            <div class="card">
+                <img src="Client2_IndividualPilates.png" alt="Individual Pilates">
+                <h5 class="card-title">Group Pilates Session</h5>
+            </div>
+            <div class="card">
+                <img src="Client2_GroupKickboxing.png" alt="Individual Kickboxing">
+                <h5 class="card-title">Individual Kickboxing Session</h5>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">Products</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <img src="Client2_TeeShirt.png" alt="TeeShirt">
+                <h5 class="card-title">TeeShirt</h5>
+            </div>
+            <div class="card">
+                <img src="Client2_WaterBottle.png" alt="WaterBottle">
+                <h5 class="card-title">WaterBottle</h5>
+            </div>
+            <div class="card">
+                <img src="Client2_YogaMat.png" alt="YogaMat">
+                <h5 class="card-title">YogaMat</h5>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <button id="subscribeButton">Subscribe</button>
+    </footer>
+
+
+
+
+    <ul class="social-list">
+        <li class="list-item">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li class="list-item">
+            <a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+        </li>
+        <li class="list-item">
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+    </ul>
+    <div class="contact-us">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Whether you have a question about our services, pricing, or anything else, our
+            team is ready to answer all your questions.</p>
+        <ul class="contact-details">
+            <li><strong>Email:</strong> info@abcfintessstudio.com</li>
+            <li><strong>Phone:</strong> (123) 456-7890</li>
+            <li><strong>Address:</strong> 123 Fitness Lane, Healthy City, Fitland 12345</li>
+        </ul>
+    </div>
+
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Subscribe button alert
+            const subscribeButton = document.getElementById('subscribeButton');
+            if (subscribeButton) {
+                subscribeButton.addEventListener('click', function () {
+                    alert('Thank you for subscribing');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

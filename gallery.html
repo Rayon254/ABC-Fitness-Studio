@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | ABC FITNESS STUDIO</title>
+    <link rel="icon" href="Client2_LogoPalette2_001F3F.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="gallery.css" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+            <img src="Client2_LogoPalette2_001F3F.png" alt="ABC Fitness Studio">
+            <span class="navbar-title">ABC FITNESS STUDIO</span>
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a> <!-- Link to Home page -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a> <!-- Link to About Us page -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a> <!-- Link to Gallery page -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a> <!-- Link to Gallery page -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-magnifying-glass"></i></a> <!-- Search icon link -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a> <!-- Cart icon link -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-circle-user"></i></a> <!-- User profile icon link -->
+            </li>
+        </ul>
+    </nav>
+
+    <h2 class="section-title">Our Gallery</h2>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="Client2_GroupYoga.png" alt="Group Yoga">
+            <h5>Group Yoga Session</h5>
+        </div>
+        <div class="gallery-item">
+            <img src="Client2_GroupPilates.png" alt="Group Pilates">
+            <h5>Group Pilates Session</h5>
+        </div>
+        <div class="gallery-item">
+            <img src="Client2_IndividualKickboxing.png" alt="Individual Kickboxing">
+            <h5>Individual Kickboxing Session</h5>
+        </div>
+        <div class="gallery-item">
+            <img src="Client2_IndividualYoga.png" alt="Individual Yoga">
+            <h5>Individual Yoga Session</h5>
+        </div>
+        <div class="gallery-item">
+            <img src="Client2_IndividualPilates.png" alt="Individual Pilates">
+            <h5>Individual Pilates Session</h5>
+        </div>
+        <div class="gallery-item">
+            <img src="Client2_GroupKickboxing.png" alt="Group Kickboxing">
+            <h5>Group Kickboxing Session</h5>
+        </div>
+    </div>
+
+    <footer>
+        <button id="subscribeButton">Subscribe</button>
+    </footer>
+
+
+
+
+    <ul class="social-list">
+        <li class="list-item">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li class="list-item">
+            <a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+        </li>
+        <li class="list-item">
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+    </ul>
+    <div class="contact-us">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Whether you have a question about our services, pricing, or anything else,
+            our
+            team is ready to answer all your questions.</p>
+        <ul class="contact-details">
+            <li><strong>Email:</strong> info@abcfintessstudio.com</li>
+            <li><strong>Phone:</strong> (123) 456-7890</li>
+            <li><strong>Address:</strong> 123 Fitness Lane, Healthy City, Fitland 12345</li>
+        </ul>
+    </div>
+
+
+    <!-- JavaScript for Dynamic Features -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Subscribe button alert
+            const subscribeButton = document.getElementById('subscribeButton');
+            if (subscribeButton) {
+                subscribeButton.addEventListener('click', function () {
+                    alert('Thank you for subscribing');
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
